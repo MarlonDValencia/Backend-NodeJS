@@ -4,6 +4,7 @@ const LocalStrategy = require("passport-local").Strategy;
 const GoogelStrategy = require("passport-google-oauth20").Strategy;
 const FacebookStrategy = require("passport-facebook-token");
 
+
 passport.use(
     new FacebookStrategy(
         {
